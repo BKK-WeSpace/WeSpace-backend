@@ -1,5 +1,5 @@
 import Tree from "../types/Tree";
 
-export default interface TreeResponse {
+export default interface TreesResponse {
   trees: Tree[];
 }

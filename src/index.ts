@@ -1,13 +1,25 @@
 import express from "express";
+import treesRequestHandler from "./services/treesRequestHandler";
 
 const app = express();
 const port = 3000;
+
+// TODO generate openAPI specs for all 3 endpoints, including missing examples.
+// TODO setup Couchbase
 
 app.get("/ping", function (_, res) {
   res.send("pong");
 });
 
-app.get("/trees", function (req, res) {
+app.post("/trees", async function (req, res) {
+  res.send(await treesRequestHandler(req.body));
+});
+
+app.post("/tree", function (req, res) {
+  res.send("Hello World!");
+});
+
+app.post("/upload", function (req, res) {
   res.send("Hello World!");
 });
 
