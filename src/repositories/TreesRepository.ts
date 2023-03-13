@@ -9,12 +9,10 @@ export default class TreeRepository {
   static getTreesWithinBound(
     reqBody: TreesRequestBody
   ): Promise<TreesResponse> {
-    // TODO replace with real data fetch to CouchBase
     return Promise.resolve(mockResponse as TreesResponse);
   }
 
   static uploadTreeImage(reqBody: TreeUploadRequest): Promise<void> {
-    // TODO replace with real upload service
     return Promise.resolve();
   }
 }
