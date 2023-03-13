@@ -7,5 +7,3 @@
 npm install
 npm run dev
 ```
-
-TODO brief overview of where things are in README.md
