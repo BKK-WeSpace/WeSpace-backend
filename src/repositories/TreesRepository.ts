@@ -9,7 +9,7 @@ export default class TreeRepository {
   static getTreesWithinBound(
     reqBody: TreesRequestBody
   ): Promise<TreesResponse> {
-    // TODO replace with real data fetch to CouchBase
+    // TODO replace with real data fetch to CouchBase. If the coordinates is empty, return ALL existing coordiantes from CouchBase.
     return Promise.resolve(mockResponse as TreesResponse);
   }
 
