@@ -1,3 +1,5 @@
+# **For the hackathon, this repo has been made a part of the frontend repository: https://github.com/BKK-WeSpace/tree-population**
+
 # Getting Started
 
 ## For now, if you POST to /trees, you'll get the position of 5 random trees in the lumpini park. This is just help integrating with the frontend.
