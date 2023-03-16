@@ -20,8 +20,7 @@ Gets all tree within a given GeoJson polygon object.
 ```ts
 // Request
 type TreesRequest = {
-    type: "Polygon",
-    coordinates: [][]
+  coordinates: number[][]
 }
 // Response
 type TreesResponse = {
@@ -69,6 +68,5 @@ interface TreeUploadRequest {
 ```
 
 Response: void
-
 
 
